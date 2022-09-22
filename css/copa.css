@@ -2,7 +2,16 @@
     box-sizing: border-box;
     
   }
-  
+
+  a {
+    color: rgb(153, 0, 51)
+    
+  }
+  a:link {
+    text-decoration: none;
+  }
+
+
   header {
     background-color: rgb(199, 186, 191);
     position:fixed;
@@ -14,7 +23,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(153, 0, 51);
   }
-  
+
    body {
         
           margin-left: auto;
@@ -30,6 +39,7 @@
     margin-top: 487px;
     float: left;
     position: fixed;
+    line-height: 35px;
     width: 300px;
     height: 100%;
     background: rgb(104, 1, 35);
