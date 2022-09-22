@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  header {
+    background-color: rgb(199, 186, 191);
+    position:fixed;
+    padding: 15px;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(153, 0, 51);
+  }
+  
+   body {
+        
+          margin-left: auto;
+          margin-right: auto;
+  
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          color:rgb(49, 1, 17);
+          background-color: rgb(240, 235, 237);
+        }
+        
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    margin-top: 487px;
+    float: left;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: rgb(104, 1, 35);
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(240, 235, 237);
+  }
+
+  .divText {
+    position: relative;
+    margin-left: 300px;
+    margin-top: 486px;
+    padding: 20px;
+    width: 70%;
+    background-color: rgb(240, 235, 237);
+  
+  }
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+     
+
+      @media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
