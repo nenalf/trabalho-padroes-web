@@ -37,7 +37,7 @@
         
   /* Create two columns/boxes that floats next to each other */
   nav {
-    margin-top: 487px;
+    margin-top: 500px;
     float: left;
     position: fixed;
     line-height: 35px;
@@ -51,6 +51,7 @@
   nav ul {
     list-style-type: none;
     padding: 0;
+    position: relative;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:rgb(240, 235, 237);
   }
@@ -58,7 +59,7 @@
   .divText {
     position: relative;
     margin-left: 300px;
-    margin-top: 486px;
+    margin-top: 525px;
     padding: 20px;
     width: 70%;
     background-color: rgb(240, 235, 237);
