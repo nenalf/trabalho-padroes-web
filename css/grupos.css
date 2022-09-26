@@ -1,0 +1,35 @@
+#info {
+    position: relative;
+    background-color: rgb(240, 235, 237);
+    height: 100%;
+    padding: 20px;
+    padding-bottom: 80px;
+    width: 70%;
+      margin-top: 525px;
+      margin-left: 300px;
+      margin-bottom: 100px;
+      
+    }
+  
+    #tudo {
+      border-color:  rgb(240, 235, 237);
+      border-collapse: collapse;
+    }
+  
+  #grupos, th, td {
+    width: 400px;
+    border: 2px solid rgb(49, 1, 17);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .brbr:hover {
+    background-color: yellow;
+    background-clip: content-box;
+  }
+  
+  #primeira {
+      background-color: rgb(255, 255, 255);
+  } 
+      

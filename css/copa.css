@@ -80,3 +80,22 @@ section::after {
     height: auto;
   }
 }
+
+.menu li a{color:#2c0211; text-decoration:none; padding:5px 10px; display:block;}
+
+.menu li a:hover{;
+color: rgb(29, 14, 20, 0.653);
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left: 90px;
+    background-color:rgb(199, 186, 191);
+    display:none;
+    }
+
+    .menu li:hover ul, .menu li.over ul{display:block;}
