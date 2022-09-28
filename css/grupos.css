@@ -5,15 +5,16 @@
     padding: 20px;
     padding-bottom: 80px;
     width: 70%;
-      margin-top: 525px;
+      margin-top: 485px;
       margin-left: 300px;
-      margin-bottom: 100px;
       
     }
   
     #tudo {
       border-color:  rgb(240, 235, 237);
       border-collapse: collapse;
+      text-align: center;
+
     }
   
   #grupos, th, td {
@@ -30,6 +31,6 @@
   }
   
   #primeira {
-      background-color: rgb(255, 255, 255);
+      background-color: rgb(211, 177, 187);
   } 
       

@@ -3,6 +3,12 @@
     
   }
 
+  @font-face {
+    font-family: "copaqatar";
+    src: url("Qatar2022Arabic-Bold.ttf");
+    font-style: normal;
+  }
+
   a {
     color: rgb(153, 0, 51)
     
@@ -15,20 +21,25 @@
   header {
     background-color: rgb(199, 186, 191);
     position:fixed;
+    font-family: "copaqatar";    
     padding: 15px;
     top: 0px;
     width: 100%;
     text-align: center;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(153, 0, 51);
+  }
+
+  .myDiv {
+    font-family: "copaqatar";
+    font-size: 30px;
+    letter-spacing: 1px;
+
   }
 
    body {
         
           margin-left: auto;
-          margin-right: auto;
-  
+          margin-right: auto;  
           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
           color:rgb(49, 1, 17);
           background-color: rgb(240, 235, 237);
@@ -37,9 +48,9 @@
         
   /* Create two columns/boxes that floats next to each other */
   nav {
-    margin-top: 500px;
+    margin-top: 480px;
     float: left;
-    position: fixed;
+    position: absolute;
     line-height: 35px;
     width: 300px;
     height: 100%;
@@ -58,8 +69,8 @@
 
   .divText {
     position: relative;
+    margin-top: 485px;
     margin-left: 300px;
-    margin-top: 525px;
     padding: 20px;
     width: 70%;
     background-color: rgb(240, 235, 237);
@@ -69,7 +80,7 @@
 section::after {
   content: "";
   display: table;
-  clear: both;
+
 }
 
      
@@ -77,7 +88,7 @@ section::after {
       @media (max-width: 600px) {
   nav, article {
     width: 100%;
-    height: auto;
+    height: 100%;
   }
 }
 
@@ -90,12 +101,22 @@ color: rgb(29, 14, 20, 0.653);
 text-shadow:0px 0px 5px #fff;
 }
 
-.menu li  ul{
-    position:absolute;
-    top:25px;
-    left: 90px;
+.menu li  ul.one{
+    position:sticky;
+    top:35px;
+    left: 150px;
     background-color:rgb(199, 186, 191);
     display:none;
     }
 
     .menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li  ul.two{
+      position:sticky;
+      top:125px;
+      left: 150px;
+      background-color:rgb(199, 186, 191);
+      display:none;
+      }
+  
+      .menu li:hover ul, .menu li.over ul{display:block;}

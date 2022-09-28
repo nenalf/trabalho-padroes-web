@@ -5,12 +5,12 @@
   }
   
   #info {
-    position: relative;
+    position: sticky;
     background-color: rgb(240, 235, 237);
     padding: 20px;
     width: 70%;
-      margin-top: 525px;
-      margin-left: 300px;
+    margin-top: 485px;
+    margin-left: 300px;
   }
   
   .tabela1 {
@@ -18,5 +18,5 @@
   }
   
   #primeira {
-      background-color: rgb(255, 255, 255);
+      background-color: rgb(211, 177, 187);
   }
